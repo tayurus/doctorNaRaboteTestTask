@@ -1,0 +1,29 @@
+.hint{
+  position: relative;
+  padding: 0 0 0 3rem;
+}
+
+.hint_test{
+  margin-top: 7.7rem;
+}
+
+.hint__arrows{
+  opacity: 0.3;
+  color: #8c9cb7;
+  font-family: "Arimo";
+  font-size: 10.6rem;
+  font-weight: 700;
+}
+
+.hint__arrows_left{
+  position: absolute;
+  top: -3rem;
+  left: 0rem;
+  line-height: 6rem;
+}
+
+.hint__arrows_right{
+  position: absolute;
+  bottom: -4rem;
+  right: 0;
+}

@@ -1,0 +1,22 @@
+.question{
+  max-width: 260px;
+  display: flex;
+  width: 100%;
+}
+
+.question__number{
+  color: #e77444;
+  font-family: "Roboto";
+  font-size: 10rem;
+  line-height: 9rem;
+  font-weight: 100;
+  margin-right: 1.6rem;
+}
+
+.question__text{
+  color: #362d29;
+  font-family: "Roboto";
+  font-size: 2.2rem;
+  font-weight: 400;
+  line-height: 3.2rem;
+}
