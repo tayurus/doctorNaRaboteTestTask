@@ -7,6 +7,14 @@
   margin-top: 7.7rem;
 }
 
+.hint__text{
+  color: #362d29;
+  font-family: "Roboto";
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 16px;
+}
+
 .hint__arrows{
   opacity: 0.3;
   color: #8c9cb7;
