@@ -76,7 +76,7 @@
 @media (max-width:1150px), (max-device-width:1150px) {
   .test__number {
     left: 60rem;
-    top: -14px;
+    top: 0;
   }
 }
 
@@ -99,8 +99,9 @@
 
 @media (max-width:680px), (max-device-width:680px) {
   .test__number {
-    left: 1.5rem;
-    top: -50px;
+    top: 5rem;
+    right: 0;
+    left: auto;
   }
 }
 
@@ -113,13 +114,9 @@
     grid-template-columns: 30rem;
   }
 
-  .text__title {
+  .test__title {
     font-size: 3rem;
   }
 
-  .test__number {
-    top: 0;
-    right: 0;
-    left: auto;
-  }
+
 }

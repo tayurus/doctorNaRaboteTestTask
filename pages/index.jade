@@ -1,46 +1,45 @@
 doctype html
 html(lang="ru")
-    include ../blocks/head/head.jade
-    body
-        main
-          .test
-              
-            .test__lines
-              .test__line
-              .test__line
-              .test__line
-              .test__line
-              .test__line
-              
-            .test__wrapper
-            
-              .test__number 01
-            
-              h1.test__title
-                | пройдите тестирование
-                br
-                span.test__title.test__title_yellow проверьте себя
-              
-              .test__content
-                .test__content-primary
-                  .question
-                    .question__number 3
-                    .question__text Далеко-далеко за словесными горами в стране
-                
-                  .hint.hint_test
-                    .hint__arrows.hint__arrows_left «
-                    .hint__text 
-                    .hint__arrows.hint__arrows_right »
-              
-                .test__answers
-                  .answer(data-answer='0')
-                    .answer__text Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты
-                  .answer(data-answer='1')
-                    .answer__text стране, гласных и согласных живут рыбные тексты
-                  .answer(data-answer='2')
-                    .answer__text Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты
-                  .answer(data-answer='3')
-                    .answer__text стране, гласных и согласных живут рыбные тексты
-              
-            
-            
+  include ../blocks/head/head.jade
+  body
+    main
+      .test
+
+        .test__lines
+          .test__line
+          .test__line
+          .test__line
+          .test__line
+          .test__line
+
+        .test__wrapper
+
+          .test__number 01
+
+          h1.test__title
+            | пройдите тестирование
+            br
+            span.test__title.test__title_yellow проверьте себя
+
+          .test__content
+            .test__content-primary
+              .question
+                .question__number 3
+                .question__text Далеко-далеко за словесными горами в стране
+
+              .hint.hint_test
+                .hint__arrows.hint__arrows_left «
+                .hint__text 
+                .hint__arrows.hint__arrows_right »
+
+            .test__answers
+              .answer(data-answer='0')
+                .answer__text Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты
+              .answer(data-answer='1')
+                .answer__text стране, гласных и согласных живут рыбные тексты
+              .answer(data-answer='2')
+                .answer__text Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты
+              .answer(data-answer='3')
+                .answer__text стране, гласных и согласных живут рыбные тексты
+          
+          button.button.button_test следующая часть
