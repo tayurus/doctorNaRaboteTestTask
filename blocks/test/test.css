@@ -1,14 +1,14 @@
-.test{
+.test {
   max-width: 93.5rem;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   margin: 0 auto;
   position: relative;
   display: flex;
   align-items: center;
 }
 
-.test__lines{
+.test__lines {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -16,17 +16,18 @@
   justify-content: space-between;
 }
 
-.test__line{
-    width: 1px;
-    height: 100%;
-    background-color: #ccc;
+.test__line {
+  width: 1px;
+  height: 100%;
+  background-color: #ccc;
 }
 
-.test__wrapper{
+.test__wrapper {
+  width: 100%;
   position: relative;
 }
 
-.test__number{
+.test__number {
   position: absolute;
   left: -10rem;
   top: 0;
@@ -37,7 +38,7 @@
   text-transform: uppercase;
 }
 
-.test__title{
+.test__title {
   margin: 0;
   color: #e77444;
   font-family: 'Arimo';
@@ -48,36 +49,77 @@
   letter-spacing: 0.1rem;
 }
 
-.test__title_yellow{
+.test__title_yellow {
   color: #e5975d;
 }
 
-.test__content{
+.test__content {
   margin-top: 6.2rem;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.test__content-primary{
+.test__content-primary {
   max-width: 26rem;
 }
 
+.test__answers {
+  display: grid;
+  grid-template-columns: 28.4rem 28.4rem;
+  grid-template-rows: auto;
+  grid-column-gap: 3.2rem;
+  grid-row-gap: 4.2rem;
+  justify-items: center;
+}
 
 @media (max-width:1150px), (max-device-width:1150px) {
-  .test__number{
+  .test__number {
     left: 60rem;
     top: -14px;
   }
 }
 
 @media (max-width:970px), (max-device-width:970px) {
-  .test__wrapper{
+  .test__wrapper {
     padding: 1.5rem;
+  }
+
+  .test__content {
+    flex-direction: column;
+  }
+
+  .test__content-primary {
+    display: flex;
+    align-items: center;
+    max-width: 80%;
+    margin-bottom: 3rem;
   }
 }
 
 @media (max-width:680px), (max-device-width:680px) {
-  .test__number{
+  .test__number {
     left: 1.5rem;
     top: -50px;
+  }
+}
+
+@media (max-width:576px), (max-device-width:578px) {
+  .test__content-primary {
+    flex-direction: column;
+  }
+
+  .test__answers {
+    grid-template-columns: 30rem;
+  }
+
+  .text__title {
+    font-size: 3rem;
+  }
+
+  .test__number {
+    top: 0;
+    right: 0;
+    left: auto;
   }
 }

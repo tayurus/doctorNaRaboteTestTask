@@ -1,0 +1,30 @@
+.answer{
+  cursor: pointer;
+  width: 28.4rem;
+  background-color: #f3f5f8;
+  padding: 2.8rem 3.6rem 2.6rem 2.9rem;
+  display: flex;
+  align-items: center;
+  box-shadow: 4px 11px 12px -6px #ccc;
+}
+
+.answer__text{
+  color: #362d29;
+  font-family: "Roboto";
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+  user-select: none;
+}
+
+.answer.correct{
+  background-color: #e5975d;
+}
+
+.answer.correct .answer__text, .answer.incorrect .answer__text{
+  color: #fff;
+}
+
+.answer.incorrect{
+  background-color: #dc3545;
+}

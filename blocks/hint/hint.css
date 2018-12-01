@@ -1,6 +1,7 @@
 .hint{
   position: relative;
   padding: 0 0 0 3rem;
+  min-width: 100px;
 }
 
 .hint_test{
@@ -34,4 +35,26 @@
   position: absolute;
   bottom: -4rem;
   right: 0;
+}
+
+@media (max-width:970px), (max-device-width:970px) {
+  .hint_test{
+    margin-top: 0;
+  }
+
+  .hint{
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (max-width:576px), (max-device-width:578px) {
+
+  .hint{
+    min-height: 50px;
+  }
+
+  .hint_test{
+    margin-top: 2rem;
+  }
 }
