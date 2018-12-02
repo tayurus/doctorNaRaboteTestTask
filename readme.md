@@ -1,4 +1,4 @@
-[DEMO][https://tayurus.github.io/indexboxtesttask/]
+[DEMO](https://tayurus.github.io/doctorNaRaboteTestTask/)
 
 File structure description:
 blocks - BEM blocks
